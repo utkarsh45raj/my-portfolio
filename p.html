@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+         header {
+        background: black;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        }
+        .hero-content {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap: 20px;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        section {
+            padding: 40px 20px;
+            background: #f8f8f8;
+            border-radius: 10px;
+        }
+        .about {
+            margin-top: 0;
+            margin-bottom: auto;
+        }
+        .projects-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+        }
+        .project {
+            background: lightgray;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1;
+        }
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .skills-container li {
+            list-style: none;
+            background: black;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+        .contact-info p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+        footer {
+            background: black;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <h2> I'm Utkarsh Raj</h2>
+            <p>Web Developer | AR VR Developer </p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate Web Developer and AR/VR Developer with a strong background in creating immersive and interactive experiences. With expertise in HTML, CSS, JavaScript.<br>
+
+                In the AR/VR space, I specialize in Unity,blender developing engaging virtual environments and interactive applications. <br> My goal is to blend creativity with technology to build solutions that enhance user experiences. <br>
+                Always eager to learn and take on new challenges, I am committed to delivering high-quality projects that make an impact. </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>A user engaging quiz platform built with HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>A virtual reality app which arguments objects in 3d space</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul class="skills-container">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Unity</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p>Email: utkarshraj1144@gmail.com</p>
+                <p>LinkedIn: linkedin.com/in/Utkarsh Raj</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>
